@@ -1,0 +1,39 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="1268" border="1"  class="table table-dark table-striped">
+    <tr>
+      <th width="224" height="65" scope="col">NAME</th>
+      <th width="133" scope="col">GENDER</th>
+      <th width="277" scope="col">ADDRESS</th>
+      <th width="177" scope="col">PHONE</th>
+      <th width="204" scope="col">E-MAIL</th>
+      <th width="91" scope="col">PIN</th>
+      <th width="116" scope="col">&nbsp;</th>
+    </tr>
+    {% for i in val %}
+
+     <td>{{i['FIRSTNAME']}}{{i['LASTNAME']}} </td>
+      <td>{{i['GENDER']}}</td>
+      <td>{{i['PLACE']}} {{i['POST']}} {{i['PIN']}}</td>
+      <td>{{i['PHONE']}}</td>
+      <td>{{i['E-MAIL']}}</td>
+      <td>{{i['PIN']}}</td>
+      <td>
+        {% if i['TYPE']=='user'%}
+      <p><a href="block?id={{i['LID']}}">BLOCK</a></p>
+      {% else %}
+        <p><a href="unblock?id={{i['LID']}}">UNBLOCK</a></p>
+    {% endif %}
+    </td>
+
+
+
+    </tr>
+    {% endfor %}
+
+  </table>
+</form>
+</body>
+{% endblock %}

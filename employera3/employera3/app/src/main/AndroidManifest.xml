@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.employera">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Employera"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".jobstatus"
+            android:exported="false" />
+        <activity
+            android:name=".viewworkbyworker"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".viewwork"
+            android:exported="false" />
+        <activity
+            android:name=".view_bid"
+            android:exported="false" />
+        <activity
+            android:name=".employeeviewwork"
+            android:exported="false" />
+        <activity
+            android:name=".reasonbyuser"
+            android:exported="false" />
+        <activity
+            android:name=".sendfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".user_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".reason"
+            android:exported="false" />
+        <activity
+            android:name=".custom6"
+            android:exported="false" />
+        <activity
+            android:name=".custom1"
+            android:exported="false" />
+        <activity
+            android:name=".custom4"
+            android:exported="false" />
+        <activity
+            android:name=".custom5"
+            android:exported="false" />
+        <activity
+            android:name=".custom3"
+            android:exported="false" />
+        <activity
+            android:name=".reportworker"
+            android:exported="false" />
+        <activity
+            android:name=".chatwithworker"
+            android:exported="false" />
+        <activity
+            android:name=".viewfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".workerhome"
+            android:exported="false" />
+        <activity
+            android:name=".bidbyworker"
+            android:exported="false" />
+        <activity
+            android:name=".viewbidresult"
+            android:exported="false" />
+        <activity
+            android:name=".viewworkdetails"
+            android:exported="false" />
+        <activity
+            android:name=".reportuser"
+            android:exported="false" />
+        <activity
+            android:name=".chatwithuser"
+            android:exported="false" />
+        <activity
+            android:name=".addingskills"
+            android:exported="false" />
+        <activity
+            android:name=".addskills"
+            android:exported="false" />
+        <activity
+            android:name=".addfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".addrating"
+            android:exported="false" />
+        <activity
+            android:name=".addwork"
+            android:exported="false" />
+        <activity
+            android:name=".workerregistration"
+            android:exported="false" />
+        <activity
+            android:name=".userhome"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

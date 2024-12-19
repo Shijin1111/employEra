@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".custom4">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="126dp"
+            android:layout_height="34dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="108dp"
+            android:layout_height="47dp"
+            android:text="TextView" />
+
+    </TableRow>
+</LinearLayout>
